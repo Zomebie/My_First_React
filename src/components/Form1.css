@@ -1,0 +1,32 @@
+.form1{
+  display: flex;
+}
+
+.form1 input{
+  flex: 2;
+  font-size:1.5rem;
+  outline: none;
+  border: none;
+  border-top: 1px solid #424242;
+  border-left: 1px solid #424242;
+  border-right: 1px solid #424242;
+  border-bottom: 1px solid #424242;
+  font-weight: 300;
+}
+
+.create-button1{
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin-left:1rem;
+  background: #424242;
+  border-radius:3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create-button1:hover{
+  color:  #F5A9E1;
+}
